@@ -1,141 +1,155 @@
 {
   "main": {
     "name": "Achraf Tarifa",
-    "occupation": "(Your Occupation Here)",
-    "description": "A third year computer science engineering student at the National School of Engineers of Sfax and project manager of the IEEE ENIS student branch",
+    "occupation": "Student",
+    "description": "Student, Freelancer, Project manager",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "contactmessage": "Whatever the nature of your project, do not hesitate to contact me by e-mail, phone or on LinkedIn.",
+    "email": "achraf.tarifa@enis.tn",
+    "phone": "+216 28 559 343",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
+      "street": "Gremda",
+      "city": "Sfax",
       "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "zip": "3012"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "http://www.achraftarifa.tn",
+    "resumedownload": "https://drive.google.com/file/d/1uVi1UPpC8VUbPldFP4T-s2XyG55QuhqX/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
+        "url": "https://www.facebook.com/achraf.tarifa/",
         "className": "fa fa-facebook"
       },
       {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/achraf-tarifa/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "https://github.com/",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "National engineering school of sfax",
+        "degree": "Computer science engineer",
+        "graduated": "Jully 2022"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Sfax Preparatory Engineering Institute",
+        "degree": "Mathematics and Physics (MP)",
+        "graduated": "June 2019",
+        "description": "2 years of algebra and physics before passing the national entrance exam to engineering schools"
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Rankio - Paris",
+        "title": "Front-end devoloper",
+        "years": "June 2021 - Present",
+        "description": "After finishing my React learning path at codecademy the summer internship was the best opportunity to apply what I learned and improve my web development skills, so Rankio was the best choice for me. Rankio is a SAAS application that facilitates project prioritization. I was a frontend developer in a team of four, we applied scrum as a project management methodology. This opportunity allowed me not only to learn more about React but also to become a better web developer by using bootstrap as a CSS framework, integrating the API and working with professionals in the same team. luckily the trip didn’t end after finishing my 2 months internship, in fact after my hard work and impressive performance the Rankio team invited me to continue the journey as a freelancer to work on both front and back end tasks.",
+        "keywords": "React, JavaScript, HTML, CSS, Bootstrap, GIT, Docker"
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Perfaxis - Sfax",
+        "title": "Back-end devoloper",
+        "years": "Jully - August 2020",
+        "description": "My first work experience was with perfaxis which is a Tunisian IT company, active in software publishing and IT consulting. My mission was to develop and document user stories for automoto.tn through a PostgreSQL database and a REST web service written in Node JS, in Docker containers. After only one year of computer science study it wasn’t easy to accomplish such advanced tasks, not forgetting to mention that it was my first experience with git, node and docker. but after a lot of research and  with the help of my supervisors I was able to finish all my tasks in time.",
+        "keywords": "Node, Javascript, Express, PostgreSQL, Docker, GIT, HTTP, Swagger"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Reseach Lab",
+        "time": "Not finished",
+        "description": "school project",
+        "keywords": "Angular, Spring Boot, Java, JavaScript, HTML, CSS, Material ui"
+      },
+      {
+        "name": "Security check system",
+        "time": "11/2020-01/2021",
+        "description": "A facial authentication system that uses the comparative method The system will learn the authorized faces and their names, then we will use a video as an input. It could be a live cam or a recorded video We will use a face detection function, which will detect if there is at least a face in the video source if a face is found, the system will take some frames from the video to compare the face with faces from the database if the face is identified and authorized the system will give permission to the person to enter and send a notification mail mentioning the individual's name to the admin, otherwise the system will not authorize this person and will send a notification mail containing one of the frames with the individual photo.",
+        "keywords": "Python, OpenCv, GoogleColab"
+      },
+      {
+        "name": "People Counter",
+        "time": "03-06/2020",
+        "description": "Get statistics of your pictures with your friends & family (Collaboration IEEE CIS ENIS SB et DataColab).",
+        "keywords": "Python, OpenCv, GoogleColab"
+      }
+    ],
+    "communitylife": [
+      {
+        "company": "IEEE ENIS SB",
+        "title": "Project manager",
+        "years": "Junuary 2021 - Present",
+        "description": "As a project manager my mission was to supervise and assure the continuity and progression of the IEEE ENIS Student Branch projects. I was responsible for planning, organizing and directing the completion of various projects. Not only that, but I was part in organizing different events and workshops for the IEEE ENIS SB members. This experience helped me to learn how to communicate with team members and how to manage a group of motivated people."
+      },
+      {
+        "company": "IEEE Computational Intelligence Society Chapter",
+        "title": "Web master",
+        "years": "Junuary - December 2020",
+        "description": "As the CIS webmaster I was responsible for the CIS media content. This role gave me the opportunity to organize and participate in different AI related workshops and events and I was able to be a part of different projects in a collaboration with DataColab."
       }
     ],
     "skills": [
       {
         "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
+        "level": "80%"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "60%"
       },
       {
         "name": "CSS",
-        "level": "90%"
+        "level": "70%"
       },
       {
         "name": "HTML5",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
         "level": "80%"
       },
       {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
+        "name": "Docker",
+        "level": "30%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Automoto.tn",
+        "category": "First year summer internship",
+        "image": "automoto.png",
+        "url": "https://www.automoto.tn"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "To do list",
+        "category": "Personal Project with react",
+        "image": "todolist.png",
+        "url": "https://github.com/achraftarifa98/to-do-list"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Security check system",
+        "category": "academic Project",
+        "image": "securitychecksystem.png",
+        "url": "https://github.com/achraftarifa98/SECURITY-CHECK-SYSTEM"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "recipe book",
+        "category": "personal project with react",
+        "image": "recipe.png",
+        "url": "https://github.com/achraftarifa98/recipe"
       }
     ]
   },
